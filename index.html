@@ -1,66 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content=
-"width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<title>SPA app</title>
-</head>
-
-<body>
-	<div id="app">
-		<header>
-			<h1>
-				GeeksforGeeks
-			</h1>
-			<h1>
-				Single Page Application Using
-				HTML, CSS & JavaScript
-			</h1>
-		</header>
-		<nav>
-			<ul>
-				<li>
-					<a href="#" onclick=
-					"changeContent('home')">
-						Home
-					</a>
-				</li>
-				<li>
-					<a href="#" onclick=
-					"changeContent('about')">
-						About
-					</a>
-				</li>
-				<li>
-					<a href="#" onclick=
-					"changeContent('contact')">
-						Contact
-					</a>
-				</li>
-			</ul>
-		</nav>
-		<main>
-			<div id="content">
-
-				
-				<h2>Welcome to Geeks for Geeks</h2>
-				<p>
-					Geeks for Geeks is a portal for computer
-					science enthusiasts, providing a wide range of
-					tutorials, articles, and resources.
-				</p>
-				<p>
-					Visit the GeeksforGeeks portal
-					
-				</p>
-			</div>
-		</main>
-	</div>
-	<script src="script.js"></script>
-</body>
-
-</html>
-
+<!-- navbar -->
+<nav class="navbar">
+    <img src="https://www.logolynx.com/images/logolynx/e2/e2f9d27d31435ce831074c84675d167a.png" class="logo" alt="">
+    <form class="search-box">
+        <input type="text" placeholder="search" name="search-query" id="search-input">
+        <button class="search-btn" type="submit"><img src="img/icon/search.png" class="search-icon" alt=""></button>
+    </form>
+    <div class="nav-links">
+        <a href="#" class="nav-links"><img src="img/icon/home-fill.png" class="nav-icon" alt=""></a>
+        <div class="activity-log">
+            <img src="img/icon/heart-nofill.png" class="nav-icon" alt="">
+            <div class="activity-container hide">
+                <div class="activity-card">
+                    <img src="img/user1.png" class="user-img" alt="">
+                    <p class="activity"><b>@siri</b> liked your post</p>
+                    <img src="img/posts/post1.png" class="activity-post" alt="">
+                </div>
+                <div class="activity-card">
+                    <img src="img/user2.png" class="user-img" alt="">
+                    <p class="activity"><b>@siri</b> liked your post</p>
+                    <img src="img/posts/post1.png" class="activity-post" alt="">
+                </div>
+                <div class="activity-card">
+                    <img src="img/user1.png" class="user-img" alt="">
+                    <p class="activity"><b>@siri</b> liked your post</p>
+                    <img src="img/posts/post1.png" class="activity-post" alt="">
+                </div>
+                <div class="activity-card">
+                    <img src="img/user3.png" class="user-img" alt="">
+                    <p class="activity"><b>@siri</b> liked your post</p>
+                    <img src="img/posts/post1.png" class="activity-post" alt="">
+                </div>
+            </div>
+        </div>
+        <a href="#" class="nav-links"><img src="img/icon/add-nofill.png" class="nav-icon" alt=""></a>
+        <a href="#" class="nav-links"><img src="img/profile-img.png" class="nav-icon user-profile" alt=""></a>
+    </div>
